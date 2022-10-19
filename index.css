@@ -8,10 +8,14 @@
 }
 
 .topbar{
-    background: #ee4b6a;
+    background:#41a6f6;
 
     width: 100%;
     height: 10vh;
+}
+.fa-house{
+    /* width: 100px; */
+    /* height: 200px; */
 }
 .content{
     /* width: 100%; */
@@ -46,7 +50,8 @@
 
 .click{
     height: 4vh;
-    border-radius: 50px;
+    width:4vh;
+    border: 0px;
     /* border: 10px */
     
 }
