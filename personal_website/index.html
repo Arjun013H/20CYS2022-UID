@@ -8,7 +8,8 @@
     <link rel="icon" href="images/isp.png" />
   </head>
 
-  <body>    
+  <body>
+    <img src="images/102.png" class="bagr">    
     <div class="wraper">
       
           <div class ="contents">
@@ -16,7 +17,6 @@
           <p >Student @Amrita Vishwa Vidyapeetham,Coimbatore</p>
           </div>
           
-          <!-- <a href="./html/cv.html" target="_blank">View My CV</a><br><br> -->
           <div class="icons_wrap">
             <a href="https://www.instagram.com/" target="_blank" ><img src="images/instagram.png" class="icon"></a>
             <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" class="icon"></a>
@@ -32,13 +32,22 @@
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=BioRhyme+Expanded&family=Fuzzy+Bubbles&family=Oswald&display=swap");
+      *{
+        padding: 0px;;
+        margin: 0px;
+      }
+      
       body {
         color:black;
-        background-image: url("images/102.png");
-        background-repeat: no-repeat;
-        background-size: cover;
         font-family: "Fuzzy Bubbles", serif;
         font-size:large;
+      }
+
+      .bagr{
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
       }
 
 
@@ -55,7 +64,7 @@
         margin: 0; 
 
         position: absolute;
-        top: 12%;
+        top: 11%;
         left: 32%;
         border-radius: 5%;
         border: 10px solid transparent;
@@ -75,19 +84,18 @@
 
       .icons_wrap{
         position: relative;
-        top: 65%;
-        left: 22%;
+        top : 75%;
+        left: 18%;
       }
-      
 
+      .icon{
+        padding: 30px;
+        width: 50px;
+        height: 50px;
+      }
       h1{
         position: relative;
         left: 10%;
-      }
-      .icon{
-        padding: 20px;
-        width: 50px;
-        height: 50px;
       }
 
       .profile {
@@ -106,7 +114,29 @@
         
         
       }
+
+      @media only screen and (min-device-width:1920px) {
+        .profile{
+          top:5%;
+          left: 44.5%;
+          width: 220px;
+          height:220px;
+          border: 10px solid transparent;
+        }
+        .wraper{
+          height: 75%;
+          width: 37.5%;
+        }
+        .icons_wrap{
+          top: 80%;
+        }
+
+
+        
+      }
     </style>
     
   </body>
+
+
 </html>
