@@ -11,21 +11,24 @@
   <body>    
     <div class="wraper">
       
-      <div class="dets">
-          <h1 ><p>Arjun C Santhosh</p></h1>
-          <p>Student @Amrita</p>
+          <div class ="contents">
+          <h1 >Arjun C Santhosh</h1>
+          <p >Student @Amrita Vishwa Vidyapeetham,Coimbatore</p>
+          </div>
+          
           <!-- <a href="./html/cv.html" target="_blank">View My CV</a><br><br> -->
-          <!-- <a href="https://www.instagram.com/" target="_blank" class="insta_icon">Instragm</a><br><br> -->
-          <!-- <a href="https://www.facebook.com/" target="_blank">Facebook</a><br><br>
-          <a href="https://github.com/Arjun013H" target="_blank">Github</a><br><br>
-          <a href="https://www.linkedin.com/in/arjun-c-santhosh-b97734214/" target="_blank">linkedin</a> -->
-
+          <div class="icons_wrap">
+            <a href="https://www.instagram.com/" target="_blank" ><img src="images/instagram.png" class="icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" class="icon"></a>
+            <a href="https://github.com/Arjun013H" target="_blank"><img src="images/github.png" class="icon"></a>
+            <a href="https://www.linkedin.com/in/arjun-c-santhosh-b97734214/" target="_blank"><img src="images/linkedin.png" class="icon"></a>
+          </div>  
         </p>
-      </div>
+      
 
       <!-- <div class=""></div> -->
     </div>
-    <img src="images/profile.jpg" alt="profilepi" class="profile" />  
+    <img src="images/1277348.png" alt="profilepi" class="profile" />  
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=BioRhyme+Expanded&family=Fuzzy+Bubbles&family=Oswald&display=swap");
@@ -55,32 +58,51 @@
         top: 12%;
         left: 35%;
         border-radius: 5%;
+        border: 10px solid transparent;
+        background:
+        linear-gradient(white,white) padding-box, 
+        linear-gradient(red,purple)border-box;
 
       }
 
-      .dets{
+      .contents{
         position: relative;
-        top: 25%;
-        left: 20%;
+
+        top:23%;
+        left: 15%;
       }
+
+      .icons_wrap{
+        position: relative;
+        top: 65%;
+        left: 22%;
+      }
+      
 
       h1{
         position: relative;
         left: 10%;
       }
-      .insta_icon{
-        color: pink;
-        font-size: 70px;
+      .icon{
+        padding: 20px;
+        width: 50px;
+        height: 50px;
       }
+
       .profile {
         top: 1%;
         left: 47%;
         position:absolute;
-        /* align-items: Center; */
         width: 250px;
         height:250px;
-        border:15px solid aqua;
+        border:12px solid transparent;
         border-radius:50%;
+        background:
+        linear-gradient(white,white) padding-box,
+        linear-gradient(red,purple) border-box;
+        
+        
+        
       }
     </style>
     
