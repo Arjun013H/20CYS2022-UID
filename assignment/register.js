@@ -5,7 +5,7 @@ function NameCheck() {
     var arrLen = sp.length;
     for (var i = 0; i < arrLen; i++) {
         if (y.includes(sp[i])) {
-            alert("Speacial charater presant in Name please remove it")
+            alert("Special character present in Name please remove it")
             document.getElementById("Capname").focus()
             break
         }
