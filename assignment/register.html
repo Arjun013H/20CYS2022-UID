@@ -101,7 +101,7 @@
     </div> -->
 
       <div>
-        <label for="gender">Are you stduent at Amrita</label><br />
+        <label for="gender">Are you student at Amrita</label><br />
         <input class="radio" type="radio" id="yes" name="yesno" />
         <label for="yes">Yes</label><br />
         <input class="radio" type="radio" id="no" name="yesno" /><label for="no"
@@ -126,15 +126,16 @@
         <p class="invalid"  id="Up"  >Upper Case </p>
         <p class="invalid"  id="Lp"  >Lower Case </p>
         <p class="invalid"  id="Nu"  >Number </p>
-        <P class="invalid"  id="Sp"   >Speacial Characters</P>
+        <P class="invalid"  id="Sp"   >Spcial Characters</P>
 
       </div>
       <div>
         <label for="confirm password">Confirm Password </label><br />
         <input
           type="password"
-          id="confirm password"
+          id="confirmpassword"
           placeholder="Enter Your Confirm Password"
+          onchange="passCh()"
           required
         />
       </div>
@@ -154,7 +155,7 @@
         >
       </div>
       <!-- <div class="date"></div> -->
-      <button type="submit">Resgister</button>
+      <button type="submit">Register</button>
     </form>
 
     <script src="./register.js"></script>

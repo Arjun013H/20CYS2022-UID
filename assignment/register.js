@@ -55,16 +55,7 @@ function PasswordCheck() {
         Lendoc.classList.remove("valid")
         Lendoc.classList.add("invalid")
     }
-    
-    if (!!x.match(upper)) {
-        Updoc.classList.remove("invalid")
-        Updoc.classList.add("valid")
-    }
-    else {
-        Updoc.classList.remove("valid")
-        Updoc.classList.add("invalid")
-    }
-    
+
     if (!!x.match(upper)) {
         Updoc.classList.remove("invalid")
         Updoc.classList.add("valid")
@@ -74,7 +65,16 @@ function PasswordCheck() {
         Updoc.classList.add("invalid")
     }
 
-    
+    if (!!x.match(upper)) {
+        Updoc.classList.remove("invalid")
+        Updoc.classList.add("valid")
+    }
+    else {
+        Updoc.classList.remove("valid")
+        Updoc.classList.add("invalid")
+    }
+
+
     if (!!x.match(lower)) {
         Lpdoc.classList.remove("invalid")
         Lpdoc.classList.add("valid")
@@ -84,7 +84,7 @@ function PasswordCheck() {
         Lpdoc.classList.add("invalid")
     }
 
-    
+
     if (!!x.match(number)) {
         Nudoc.classList.remove("invalid")
         Nudoc.classList.add("valid")
@@ -95,7 +95,7 @@ function PasswordCheck() {
     }
 
 
-        
+
     if (!!x.match(sp)) {
         Spdoc.classList.remove("invalid")
         Spdoc.classList.add("valid")
@@ -105,13 +105,21 @@ function PasswordCheck() {
         Spdoc.classList.add("invalid")
     }
 
+}
 
 
-
-
-
-
-
-
+function passCh() {
+    var p1 = document.getElementById("password").value
+    var p2 = document.getElementById("confirmpassword").value
+    if (p1 != p2) {
+        alert("Password is Not Same")
+        document.getElementById("confirmpassword").focus()
+    }
 
 }
+
+
+
+
+
+
