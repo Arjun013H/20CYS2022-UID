@@ -16,7 +16,7 @@ h1 {
 form {
   background-color: black;
   width: 50rem;
-  height: 120rem;
+  height: 135rem;
   opacity: 0.6;
   margin: auto;
   margin-top: 3rem;
@@ -104,3 +104,17 @@ div {
   position: relative;
   left: 3.4%;
 }
+
+.invalid
+{
+  padding-left: 25px;
+  font-size: 20px;
+  color:red;
+}
+
+.valid{
+  color:green;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
