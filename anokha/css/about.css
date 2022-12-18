@@ -1,0 +1,25 @@
+body{
+    background-color: #0a0a0a;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+    font-size:25px;
+    background-color:white;
+    background-color: #0a0a0a;
+    
+  }
+  li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  p{
+    color: white;
+    font-size: 25px;
+  }
+  .data:hover{
+    color: rgb(184, 18, 18);
+  }
