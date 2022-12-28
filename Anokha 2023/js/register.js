@@ -204,10 +204,13 @@ function passCh() {
 }
 
 function validAll(){
-    if (NameCheck() && ValidateEmail() && PhoneNumberCheck() && PasswordCheck() && passCh()){
-        return true
+    // window.open("./login.html")
+    if (NameCheck()  && PhoneNumberCheck() && PasswordCheck() && passCh()){
+        alert("Submitted Successfully")
+        window.open("./login.html")
     }
     else{
+        // window.open("./login.html")
         return false
     }
 }
