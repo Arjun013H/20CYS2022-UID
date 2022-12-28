@@ -1,3 +1,5 @@
+myBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+
 function NameCheck() {
     var x = document.getElementById("Capname").value;
         var nameRegex = /^[a-zA-Z ]+$/;
