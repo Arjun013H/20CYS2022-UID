@@ -27,6 +27,9 @@ header{
   height: 0px;;
   width: 0px;
   /* display: none; */
+  background: transparent;
+  border: none ;
+
 }
 .data:hover{
   color: rgb(184, 18, 18);
