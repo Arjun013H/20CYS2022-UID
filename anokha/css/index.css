@@ -1,90 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Sono&display=swap');
-*{
-    padding: 0px;
-    margin: 0px;
-    color: white;
-}
-.BIG{
-    font-family: 'Rubik Vinyl', cursive;    
-    position: absolute;
-    height: 0px;
-    left: 50%;
-    /* padding-left: 47%; */
-    /* padding-top: 20px; */
-    font-size: 10em;;
-    /* text-align: center; */
-}
-.nav-image{
-    height: 5%;
-    width: 20%;
-    margin-right: auto;
-}
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px;
-    font-size:25px;
-    /* background-color: black; */
-    
-}
-li{
-    display: inline-block;
-    padding: 0px 20px;
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&family=Rowdies:wght@300&display=swap');
+.sizeofimage{
+  height: 100px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    background-image: url(../images/key.jpg);
-  }
-  .container{
-    max-width: 800px;
-    width: 100%;
-    height: 500px;
-    border: 7px solid #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-  }
-  .image-box{
-    /* position:absolute; */
-    display: flex;
-    height: 100%;
-    width: 400%;
-    justify-content: space-between;
-  }
-  .image-box{
-    animation: imgBox 10s linear infinite;
-  }
-  @keyframes imgBox{
-    0%{
-      margin-left: 0;
-    }
-    100%{
-      margin-left: -300%;
-    }
-  }
-  .image-box:hover{
-    animation-play-state: paused;
-  }
-  .image-box .image{
-    width: calc(100% - 100px);
-    height: 100%;
-  }
-  .image-box img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-.final{
-    display: flex;
-    justify-content: flex-start;
+#navit{
+  position:fixed;
+  top: 0%;
+}
+.p-center{
+  position: absolute;
+  top: 200px;
+  left: 20%;
+  font-size: 55px;
 }
 
-.data:hover{
-  color: rgb(184, 18, 18);
+.p-p-center{
+  position: absolute;;
+  top: 300px;
+  left: 44%;
+  font-size: 55px;
+
+}
+.p-center,.p-p-center{
+  font-family: 'BioRhyme', serif;
+  font-family: 'Rowdies', cursive;
+  color: white;
+  font-size: 100px;
+}
+.navbar-nav{
+  justify-content: flex-end;
+}
+.bg{
+  background-image: url("../images/1185006.jpg");
+  /* width:100vh; */
+  height: 100vh;
+  /* margin-top: -145px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+body{
+  background-color: black;
+  /* height: 100vh; */
 }
