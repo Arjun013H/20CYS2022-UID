@@ -1,23 +1,22 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&family=Rowdies:wght@300&display=swap');
 .sizeofimage{
   height: 100px;
 }
 
-#navit{
-  position:fixed;
-  top: 0%;
-}
+
 .p-center{
   position: absolute;
-  top: 200px;
+  /* top: 270px; */
+  top:18rem;
   left: 20%;
   font-size: 55px;
 }
 
 .p-p-center{
   position: absolute;;
-  top: 300px;
+  top: 24rem;
   left: 44%;
   font-size: 55px;
 
@@ -40,3 +39,50 @@
   background-repeat: no-repeat;
 }
 
+.about{
+  display: inline-flex;
+  margin: 25rem;
+  /* padding-top: -5rem; */
+}
+
+#c1{
+  height: 20rem;
+  width: 40rem;
+  color:white;
+  background-color: rgb(255, 255, 255,0.1);
+  
+}
+#c2{
+
+  color:white;
+  background-color: rgb(255, 255, 255,0.1);
+  
+  height: 10rem;
+  width: 10rem;
+  /* margin-left: 18rem; */
+
+}
+
+#c3{
+  color:white;
+  background-color: rgb(255, 255, 255,0.1);
+  
+  margin-top: 1rem;
+  height: 10rem;
+  width: 10rem;
+  /* margin-left: 20rem; */
+
+}
+/* .about{
+  margin-top: 500rem;  
+} */
+
+.anotherStyle{
+  margin-left: 8rem;
+}
+
+#navit{
+  position:fixed;
+  top: 0%;
+  width: 100%;
+}
