@@ -82,7 +82,17 @@
 }
 
 #navit{
+  padding-left: 3rem;
   position:fixed;
   top: 0%;
   width: 100%;
 }
+.item-item{
+  color:white
+}
+
+
+.item-item:hover{
+  color: aqua;
+}
+
