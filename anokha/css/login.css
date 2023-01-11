@@ -1,20 +1,11 @@
 body{
-    background-color:#28282B;
+    background-color:#282a36;
     color: white;
 }
 .data:hover{
   color: rgb(184, 18, 18);
 }
-header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 30px;
-    font-size:25px;
-    background-color:white;
-    background-color:  #28282B;
-    
-  }
+
   li{
     display: inline-block;
     padding: 0px 20px;
@@ -56,3 +47,16 @@ form {
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+
+  .item-item:hover{
+  color: aqua;
+}
+
+
+.item-item{
+  font-size: 25px;
+}
+.sizeofimage{
+  height: 100px;
+}
