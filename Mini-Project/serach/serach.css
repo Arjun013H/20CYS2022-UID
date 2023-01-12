@@ -1,0 +1,8 @@
+.card-grps{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 2fr;
+    grid-gap: 50px;
+    align-items:stretch;
+    margin-left: 30rem;
+    margin-top: 15rem;
+    }
