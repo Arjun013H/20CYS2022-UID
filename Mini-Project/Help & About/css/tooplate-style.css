@@ -17,7 +17,7 @@ body {
 
 a { transition: all 0.3s ease; }
 a:hover, a:focus, a.active {
-    color: #58d5ff;
+    color: #ffe165;
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ a:hover, a:focus, a.active {
     align-items: center;
     justify-content: center;
     /* background-color: #E7A7C0; */
-    background-image: url(../img/2.jpg);
+    background-image: url(../img/try.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -106,16 +106,16 @@ a:hover, a:focus, a.active {
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #666666;
+    color: #ffe165;
     opacity: 1; /* Firefox */
 }
 
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #666666;
+    color: #ffe165;
 }
 
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
-    color: #666666;
+    color: #ffe165;
 }
 
 .form-control {
@@ -157,7 +157,7 @@ a:hover, a:focus, a.active {
 }
 
 .tm-new-release {
-    background-color: grey;
+    background-color: #ffe165;
     /* background-image: url(../img/gradient-blue.png); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,18 +285,18 @@ figure.effect-sadie:hover p {
 }
 
 .tm-font-300 { font-weight: 300; }
-.tm-text-gray, .tm-link-gray { color: #666666; }
+.tm-text-gray, .tm-link-gray { color: #ffe165; }
 .tm-text-white { color: #fff; }
-.tm-text-blue { color: #6e9ece; }
-.tm-text-blue-dark { color: #006699; }
-.tm-text-pink { color: #D6688F; }
-.tm-text-pink-dark { color: #CC6699; }
-.tm-text-brown { color: #CC6666; }
+.tm-text-blue { color: #ffe165; }
+.tm-text-blue-dark { color: #ffe165; }
+.tm-text-pink { color: #ffe165; }
+.tm-text-pink-dark { color: #ffe165; }
+.tm-text-brown { color: #ffe165; }
 .tm-bg-gray { background-color: #F2F2F2; }
-.tm-bg-pink { background-color: #de7099; }
+.tm-bg-pink { background-color: #ffe165; }
 .tm-bg-pink-light { background-color: #f9e3eb; }
-.tm-bg-pink-light-2 { background-color: #EDAABC; }
-.tm-bg-blue { background-color: #6699cc; }
+.tm-bg-pink-light-2 { background-color: #ffe165; }
+.tm-bg-blue { background-color: #ffe165; }
 
 .media-boxes {
     max-width: 930px;
@@ -323,12 +323,12 @@ figure.effect-sadie:hover p {
 .tm-bg-blue.tm-buy:hover,
 .tm-bg-blue.tm-buy:focus {
     color: white;
-    background-color: #277bcc;
+    background-color: #ffe165;
 }
 
 .tm-bg-pink.tm-buy:hover,
 .tm-bg-pink.tm-buy:focus {
-    background-color: #d14579;
+    background-color: #ffe165;
     color: white;
 }
 
@@ -356,11 +356,11 @@ figure.effect-sadie:hover p {
     width: 350px;
     margin-bottom: 25px;
     border-radius: 0;
-    border-color: #D6688F;
+    border-color: #ffe165;
     padding: 13px 15px;
 }
 
-.form-control.tm-subscribe-input:focus { border-color: #df6f98; }
+.form-control.tm-subscribe-input:focus { border-color: #ffe165; }
 
 .tm-subscribe-btn {
     border: none;
@@ -373,7 +373,7 @@ figure.effect-sadie:hover p {
 
 .tm-subscribe-btn:hover,
 .tm-subscribe-focus {
-    background-color: #d14579;
+    background-color:#ffe165;
 }
 
 .tm-subscribe-img {
@@ -474,7 +474,7 @@ figure.effect-sadie:hover p {
 .nav-tabs .nav-link {
     border-radius: 0;
     border: none;
-    color: #666666;
+    color: #ffe165;
 }
 
 .nav-tabs { border-bottom: 0; }
@@ -482,7 +482,7 @@ figure.effect-sadie:hover p {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:hover {
-    background-color: #EDAABC;
+    background-color: #ffe165;
     color: white;
 }
 
