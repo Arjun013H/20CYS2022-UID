@@ -1,0 +1,127 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&family=Rowdies:wght@300&display=swap');
+.sizeofimage{
+  height: 100px;
+}
+
+
+.p-center{
+  position: absolute;
+  /* top: 270px; */
+  top:18rem;
+  left: 20%;
+  font-size: 55px;
+}
+
+.p-p-center{
+  position: absolute;;
+  top: 24rem;
+  left: 44%;
+  font-size: 55px;
+
+}
+.p-center,.p-p-center{
+  font-family: 'BioRhyme', serif;
+  font-family: 'Rowdies', cursive;
+  color: white;
+  font-size: 100px;
+}
+.navbar-nav{
+  justify-content: flex-end;
+}
+.bg{
+  background-image: url("../images/1185006.jpg");
+  /* width:100vh; */
+  height: 100vh;
+  /* margin-top: -145px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about{
+  display: inline-flex;
+  margin: 20rem;
+  /* padding-top: -5rem; */
+}
+
+#c1{
+  height: 20rem;
+  width: 40rem;
+  color:white;
+  background-color: rgb(255, 255, 255,0.1);
+  
+}
+#c2{
+
+  color:white;
+  background-color: rgb(255, 255, 255,0.1);
+  
+  height: 10rem;
+  width: 20rem;
+  /* margin-left: 18rem; */
+
+}
+
+#c3{
+  color:white;
+  background-color: rgb(255, 255, 255,0.1);
+  
+  margin-top: 1rem;
+  height: 10rem;
+  width: 20rem;
+  /* margin-left: 20rem; */
+
+}
+/* .about{
+  margin-top: 500rem;  
+} */
+
+.anotherStyle{
+  margin-left: 8rem;
+}
+
+#navit{
+  padding-left: 3rem;
+  position:fixed;
+  top: 0%;
+  width: 100%;
+}
+.item-item{
+  color:white
+}
+
+
+.item-item:hover{
+  color: aqua;
+}
+
+.Schedule{
+  /* align-items: center; */
+  display: inline-flex;
+
+}
+
+.Schedule{
+  /* padding-top: 5rem; */
+  margin-top: 15rem;
+}
+
+#c4{
+  margin-left: 17rem;
+}
+
+#c5,#c6{
+  margin-left: 5rem;
+}
+
+#c4,#c5,#c6{
+  /* color: white; */
+  /* background-color: rgb(255, 255, 255,0.1); */
+  /* width: 20rem;
+  height: 20rem; */
+  border-width: 1rem;
+}
+.item-item{
+  font-size: 25px;
+}
